@@ -1,0 +1,59 @@
+
+.banner-section {
+   background: linear-gradient(to right, rgb(0,0,0), rgba(0,0,0,.35)),
+               url('../images/web-design.jpg') no-repeat center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   @include mq('xs') {
+        min-height: 531px;
+   }
+   @include mq('sm') {
+       min-height: 589px;
+   }
+   @include mq('md') {
+        min-height: 491px;
+   }   
+   @include mq('lg') {
+       min-height: 577px;
+   }
+}
+
+.banner-content {
+   width: 100%; 
+   align-content: center;
+   @include mq('md') {
+       width: 940px;
+   }
+   @include mq('lg') {
+       width: 1170px;
+   }
+}
+
+.banner-text {
+    width: 100%;
+    color: $white;
+    text-align: center;
+    max-width: 90%;
+    margin: -1px auto 0;
+    h1 {
+        margin: 0 0 24px;
+    }
+    p {
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        margin: 0 0 35px;
+    }
+    span {
+        line-height: 50px;
+        font-size: 1.25rem;
+    }
+    @include mq('md') {
+        text-align: left;
+        margin-left: 0;
+        h1 {
+            margin-top: -2px;
+        }
+    }
+}

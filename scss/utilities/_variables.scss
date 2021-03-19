@@ -1,0 +1,76 @@
+
+// fonts
+$font-stack: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+
+// media quieries breakpoints 
+
+$breakpoints: (
+
+'xs': 767px,
+'sm': 768px,
+'md': 992px,
+'lg': 1260px,
+);
+
+// colors (main)
+
+$white: #fff;
+
+$primary-light: #ddd;
+$primary-grey: #666;
+$primary-dark-grey: #454555;
+$primary-dark: #333645;
+$primary-darker: #22242e;
+$primary-accent: #ccc;
+
+$software: #67809f;
+$support: #4183d7;
+$marketing: #2ecc71;
+$telecoms: #d64541;
+$design: #926fb1;
+$security: #f62459;
+
+$software-hvr: #566c88;
+$support-hvr: #2a6ec6;
+$marketing-hvr: #25a25a;
+$telecoms-hvr: #bc2c28;
+$design-hvr: #7e57a0;
+$security-hvr: #de093f;
+
+ // social media colors
+$facebook: #3b599b;
+$twitter: #00aced;
+$linkedin: #0077be;
+
+// colors (buttons)
+$btn-purple: #926fb1;
+$btn-purple-hvr: #7e57a0;
+
+$btn-blue: #4183d7;
+$btn-blue-hvr: #2a6ec6;
+
+$btn-dark: #333645;
+$btn-dark-hvr: #22242e;
+
+$btn-grey: #999aa2;
+$btn-grey-hvr: #84858f;
+
+$btn-brand-hvr: #ebebeb;
+
+
+// service list colours
+
+$service-colors: (
+    'software': #67809f,
+    'support': #4183d7,
+    'marketing': #2ecc71,
+    'telecoms': #d64541,
+    'design': #926fb1,
+    'security': #f62459,
+ 
+    );
+
+
+   
+
+    
