@@ -50,7 +50,7 @@
     }
 }
 
-// service card colors
+// service card color loop
 @mixin cards($map) {
     @each $cardservices, $cardcolor in $service-colors {
         &-#{$cardservices} {
