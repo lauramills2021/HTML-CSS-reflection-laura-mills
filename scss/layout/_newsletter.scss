@@ -17,7 +17,7 @@
     }
     @include mq('sm') {
         max-width: 720px;
-        padding: 23px 30px 24px;
+        padding: 50px 30px 24px;
         margin: auto;
     }
     @include mq('md') {
@@ -48,9 +48,6 @@ fieldset {
     margin: 0 0 20px;
 }
 
-.signup-label {
-    margin-bottom: 5px;
-}
 
 .newsletter-fields {
     display: flex;
@@ -77,6 +74,7 @@ input[type="email"] {
     border: 1px solid $primary-accent;
     border-radius: 2px;
     margin-bottom: 10px;
+    margin-top: 5px;
     transition: border .15s ease-in-out, box-shadow .15s ease-in-out;
     font-size: 14px;
     color: #555;
@@ -119,6 +117,7 @@ input[type="email"] {
 .marketing-label p {
     display: inline-block;
     margin: 0;
+    line-height: 32px;
 }
 
 .marketing-label #marketing-optin:checked {
@@ -147,3 +146,4 @@ input[type="email"] {
     }
 
 }
+

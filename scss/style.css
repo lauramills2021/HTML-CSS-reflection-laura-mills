@@ -1968,7 +1968,7 @@ article p {
 @media (min-width: 768px) {
   .newsletter-form {
     max-width: 720px;
-    padding: 23px 30px 24px;
+    padding: 50px 30px 24px;
     margin: auto;
   }
 }
@@ -2003,10 +2003,6 @@ fieldset {
 
 .newsletter-fieldset {
   margin: 0 0 20px;
-}
-
-.signup-label {
-  margin-bottom: 5px;
 }
 
 .newsletter-fields {
@@ -2048,6 +2044,7 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 2px;
   margin-bottom: 10px;
+  margin-top: 5px;
   -webkit-transition: border .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
   transition: border .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
   transition: border .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -2099,6 +2096,7 @@ input[type="email"]:focus {
 .marketing-label p {
   display: inline-block;
   margin: 0;
+  line-height: 32px;
 }
 
 .marketing-label #marketing-optin:checked + p::before {
