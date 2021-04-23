@@ -188,6 +188,9 @@ article {
         @include mq('sm') {
             margin: 0;
         }
+        img {
+            border-radius: 50%;
+        }
     }
     .author {
         display: flex;
@@ -209,5 +212,5 @@ article {
     }
 }
     
-       
+      
 

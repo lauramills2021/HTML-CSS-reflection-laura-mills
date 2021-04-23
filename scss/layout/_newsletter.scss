@@ -114,14 +114,14 @@ input[type="email"] {
     top: 0;
 }
 
-.marketing-label p {
+.marketing-label span {
     display: inline-block;
     margin: 0;
     line-height: 32px;
 }
 
 .marketing-label #marketing-optin:checked {
-    +p::before {
+    +span::before {
         content:"";
         position: absolute;
         width: 32px;
@@ -131,7 +131,7 @@ input[type="email"] {
         top: 0;
         border-radius: 3px;
     }
-    +p::after {
+    +span::after {
         content: "";
         display: block;
         position: absolute;

@@ -1915,6 +1915,10 @@ article p {
   }
 }
 
+.article-ftr .author-img img {
+  border-radius: 50%;
+}
+
 .article-ftr .author {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2093,13 +2097,13 @@ input[type="email"]:focus {
   top: 0;
 }
 
-.marketing-label p {
+.marketing-label span {
   display: inline-block;
   margin: 0;
   line-height: 32px;
 }
 
-.marketing-label #marketing-optin:checked + p::before {
+.marketing-label #marketing-optin:checked + span::before {
   content: "";
   position: absolute;
   width: 32px;
@@ -2110,7 +2114,7 @@ input[type="email"]:focus {
   border-radius: 3px;
 }
 
-.marketing-label #marketing-optin:checked + p::after {
+.marketing-label #marketing-optin:checked + span::after {
   content: "";
   display: block;
   position: absolute;
