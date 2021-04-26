@@ -1383,7 +1383,7 @@ header {
     display: flex;
     width: 100vw;
     margin-top: 20px;
-    height: 97px;
+    height: 99px;
     background-color: #333645;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1401,7 +1401,6 @@ header {
 }
 
 #navbar a {
-  font-size: 18px;
   color: white;
   text-align: center;
   text-decoration: none;
