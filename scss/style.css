@@ -1318,6 +1318,7 @@ header {
   -ms-flex-preferred-size: 63.03px;
       flex-basis: 63.03px;
   max-height: 56px;
+  max-width: 63.03px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1367,12 +1368,6 @@ header {
 
 .burger-icon:hover a {
   text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .button-main-nav {
-    display: none;
-  }
 }
 
 /* The navigation menu */
