@@ -48,7 +48,7 @@ header {
     }
     @include mq('xs') {
         flex: 1 1 50%;
-        max-width: 402px;
+        max-width: 65%;
     }
     @include mq('sm') {
         flex: 1 1 50%;

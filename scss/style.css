@@ -1044,7 +1044,7 @@ header {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50%;
             flex: 1 1 50%;
-    max-width: 402px;
+    max-width: 65%;
   }
 }
 
