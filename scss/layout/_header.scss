@@ -298,7 +298,6 @@ header {
     border-right: 1px solid rgba(0,0,0,.25);
     justify-content: center;
     color: white;
-    background-color: $primary-dark;
     font-family: $font-stack;
     span {
         font-size: 10px;
@@ -325,7 +324,7 @@ header {
 }
   
 .design {
-      .fas {
+    .fas {
           color: $design;
       }
       &:hover {
