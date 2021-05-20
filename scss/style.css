@@ -1579,14 +1579,14 @@ header {
 
 .subnav-content a:after {
   content: "-";
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 @media (min-width: 1260px) {
   .subnav-content a:after {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }
 
@@ -1607,6 +1607,66 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.design-drop-down a:first-child {
+  margin-left: -77px;
+}
+
+@media (min-width: 1260px) {
+  .design-drop-down a:first-child {
+    margin-left: -60px;
+  }
+}
+
+.support-drop-down a:first-child {
+  margin-left: -146px;
+}
+
+@media (min-width: 1260px) {
+  .support-drop-down a:first-child {
+    margin-left: -140px;
+  }
+}
+
+.telecoms-drop-down a:first-child {
+  margin-left: -67px;
+}
+
+@media (min-width: 1260px) {
+  .telecoms-drop-down a:first-child {
+    margin-left: -43px;
+  }
+}
+
+.software-drop-down a:first-child {
+  margin-left: -34px;
+}
+
+@media (min-width: 1260px) {
+  .software-drop-down a:first-child {
+    margin-left: -4px;
+  }
+}
+
+.marketing-drop-down a:first-child {
+  margin-left: -192px;
+}
+
+@media (min-width: 1260px) {
+  .marketing-drop-down a:first-child {
+    margin-left: -196px;
+  }
+}
+
+.security-drop-down a:first-child {
+  margin-left: -52px;
+}
+
+@media (min-width: 1260px) {
+  .security-drop-down a:first-child {
+    margin-left: -28px;
+  }
 }
 
 #news-banner {

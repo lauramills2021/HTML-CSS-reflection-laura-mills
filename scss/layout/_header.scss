@@ -393,6 +393,7 @@ header {
 .subnav {
       .design-drop-down {
          background-color: $design-hvr;
+         
       }
       .support-drop-down {
           background-color: $support-hvr;
@@ -431,13 +432,14 @@ header {
     color: white;
     text-decoration: none;
     font-size: 13px;
+    
     &:after {
         content:"-";
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 23px;
+        padding-right: 23px;
             @include mq('lg') {
-                padding-left: 35px;
-                padding-right: 35px;
+                padding-left: 34px;
+                padding-right: 34px;
             }  
         }
         &:last-child::after {
@@ -452,4 +454,56 @@ header {
     justify-content: center;
 }
 
-  
+.design-drop-down a {
+    &:first-child {
+        margin-left: -77px;
+        @include mq(lg) {
+            margin-left: -60px;
+        }
+    } 
+}
+
+.support-drop-down a {
+    &:first-child {
+        margin-left: -146px;
+        @include mq(lg) {
+            margin-left: -140px;
+        }
+    } 
+}
+
+.telecoms-drop-down a {
+    &:first-child {
+        margin-left: -67px;
+        @include mq(lg) {
+            margin-left: -43px;
+        }
+    } 
+}
+
+.software-drop-down a {
+    &:first-child {
+        margin-left: -34px;
+        @include mq(lg) {
+            margin-left: -4px;
+        }
+    } 
+}
+
+.marketing-drop-down a {
+    &:first-child {
+        margin-left: -192px;
+        @include mq(lg) {
+            margin-left: -196px;
+        }
+    } 
+}
+
+.security-drop-down a {
+    &:first-child {
+        margin-left: -52px;
+        @include mq(lg) {
+            margin-left: -28px;
+        }
+    } 
+}
